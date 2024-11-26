@@ -12,8 +12,11 @@ export default function HelpMePage() {
   async function onSubmit(e) {
     e.preventDefault();
     const responseStatus = await sendHelpEmail(fromEmail, message);
-    if (responseStatus === 200)
+    if (responseStatus === 200) {
       setSuccessMessage('Email sent, I will be in touch shortly!');
+      setFromEmail('');
+      setMessage('');
+    }
     else 
       setErrorMessage('There was an error sending your email, please let me know and I will get this sorted');
   }
