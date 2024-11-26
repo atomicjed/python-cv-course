@@ -6,7 +6,7 @@ import HelpMePage from "../components/HelpMePage.jsx";
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '*',
     element: <Navigate to={'/1'} replace />
   },
   {
