@@ -9,7 +9,7 @@ import {
   walkThrough,
 } from "../constants/moduleTwoScript.constants.js";
 import {SubmitWork} from "../components/SubmitWork.jsx";
-import {module2Thumb, moduleTwoVideo} from "../assets/index.js";
+import {module2Thumb} from "../assets/index.js";
 import {useEffect, useState} from "react";
 import {collection, getDocs} from "firebase/firestore";
 import {db} from "../firebaseSingleton.js";
@@ -40,7 +40,7 @@ export default function ModuleTwo({ moduleNumber }) {
     <>
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
         <Header navigation={module2NavItems} />
-        <Hero video={moduleTwoVideo} videoThumbnail={module2Thumb} title={"Building a Security Camera using Computer Vision"} subHeading={"Discover how motion detection with python can be applied to real world scenarios"} />
+        <Hero video={'https://firebasestorage.googleapis.com/v0/b/python-cv-course-a91b0.firebasestorage.app/o/ModuleTwo.mp4?alt=media&token=30880c32-f4e6-42a8-b2cb-dc3de472004b'} videoThumbnail={module2Thumb} title={"Building a Security Camera using Computer Vision"} subHeading={"Discover how motion detection with python can be applied to real world scenarios"} />
         <InfoSection sectionId={'fixing-bugs'} content={fixingBugsContent} isFirst />
         <InfoSection sectionId={'libraries'} content={librariesContent} />
         <InfoSection sectionId={"computer-vision"} content={computerVisionContent} />

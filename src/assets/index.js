@@ -59,8 +59,6 @@ import variableQuiz from "./examples/module1/variableQuiz.png";
 import conditionalQuiz from "./examples/module1/conditionalQuiz.png";
 import loopQuiz from "./examples/module1/forLoopQuiz.png";
 
-import moduleTwoVideo from "./videos/ModuleTwo.mp4";
-
 export {
   brainwave,
   check,
@@ -90,7 +88,6 @@ export {
   module2Thumb,
   pythonIcon,
   heroBgWhite,
-  moduleTwoVideo,
   openFolder,
   helloWorldConsole,
   mainPy,
