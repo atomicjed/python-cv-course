@@ -62,7 +62,7 @@ const Hero = ({ title, subHeading, video, videoThumbnail }) => {
           </div>
           <div className={`absolute flex justify-center items-center ${isDarkMode ? '-top-[200%]' : '-top-[120%]'} left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] ${isDarkMode ? 'lg:-top-[104%]' : 'lg:-top-[97%]'}`}>
             <img
-              src={isDarkMode ? heroBackground : heroBgWhite}
+              src={isDarkMode ? 'https://firebasestorage.googleapis.com/v0/b/python-cv-course-a91b0.firebasestorage.app/o/Screenshot%202024-11-28%20at%2016.30.37.png?alt=media&token=5b09f65b-86a7-4dd2-91f6-bc305b632cda' : heroBgWhite}
               className={`${isDarkMode ? 'w-full' : 'w-[70%] lg:w-full'}`}
               width={1440}
               height={1800}
