@@ -19,6 +19,7 @@ export default function ModuleRouter() {
 
   const moduleMap = {
     "1": <ModuleOne moduleNumber={1} />,
+    "2": <ModuleTwo moduleNumber={2} />
   };
 
   return (

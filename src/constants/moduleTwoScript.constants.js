@@ -116,6 +116,9 @@ export const walkThrough = [
     title: "Building a Security Camera Using OpenCV (step by step):"
   },
   {
+    video: {source: "https://firebasestorage.googleapis.com/v0/b/python-cv-course-a91b0.firebasestorage.app/o/ModuleTwoDemo.mp4?alt=media&token=a17400c0-2e41-40ac-a54a-2c7d44fe32ec"}
+  },
+  {
     text: "Set up:"
   },
   {
@@ -160,5 +163,17 @@ export const walkThrough = [
 export const results = [
   {
     title: "Results",
+  },
+  {
+    text: "Time to test out your nifty work! Make sure the first frame of the video represents the static background. Also, You may need to adjust some of the min width and threshold settings to get the best results depending on your lighting conditions. So, how well did it work for you?"
+  },
+  {
+    text: "For me, it was relatively successful at detecting motion, it will detect when I leave and enter the frame."
+  },
+  {
+    text: "However, the program we've created is very simplistic and, as I'm sure you've noticed, the results are far from perfect. We get multiple bounding boxes even though only one object is moving, and small changes in lighting trigger false-positive motion detections."
+  },
+  {
+    text: "To build on this program, we are going to lean on the more powerful background subtraction methods provided by OpenCV, to build some tight-knit, well performing programs and systems."
   }
 ]
