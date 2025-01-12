@@ -6,5 +6,9 @@ export const availableModules = [
   {
     id: '2',
     moduleName: 'Module 2'
+  },
+  {
+    id: '3',
+    moduleName: 'Module 3'
   }
 ];

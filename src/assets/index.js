@@ -59,6 +59,18 @@ import variableQuiz from "./examples/module1/variableQuiz.png";
 import conditionalQuiz from "./examples/module1/conditionalQuiz.png";
 import loopQuiz from "./examples/module1/forLoopQuiz.png";
 
+import normalDistribution from "./normal-dist.webp";
+import normalDistribution2 from "./normal-dit.png";
+import module3One from "./moudle3One.png";
+import module3Two from "./moudle3Two.png";
+import module3Three from "./moudle3Three.png";
+import objectTracking1 from "./objectTracking1.png";
+import objectTracking2 from "./ObjectTracking2.png";
+import objectTracking3 from "./ObjectTRacking3.png";
+import objectTracking4 from "./ObjectTracking4.png";
+import objectTracking5 from "./ObectTracking5.png";
+import module3Thumb from "./module3Thumb.png";
+
 export {
   brainwave,
   check,
@@ -116,5 +128,16 @@ export {
   dataStructuresTable,
   variableQuiz,
   conditionalQuiz,
-  loopQuiz,
+  loopQuiz, 
+  normalDistribution,
+  normalDistribution2,
+  module3One,
+  module3Two ,
+  module3Three,
+  objectTracking1,
+  objectTracking2,
+  objectTracking3,
+  objectTracking4,
+  objectTracking5,
+  module3Thumb,
 };
