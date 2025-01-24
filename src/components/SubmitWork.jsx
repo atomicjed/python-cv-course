@@ -32,6 +32,20 @@ export function SubmitWork({ moduleNumber, submittedWork, onUpdate }) {
     setIsUploading(true);
     try {
       for (const file of workToSubmit) {
+        const uniqueFileName = `${file.name + v4()}`;
+        const fileRef = ref(storage, `Module${moduleNumber}/${uniqueFileName}`);
+
+        await uploadBytes(fileRef, file);
+        const downloadURL = await getDownloadURL(fileRef);
+
+        const workSubmitRef = doc(db, `Module${moduleNumber}`, uniqueFileName);
+        await setDoc(workSubmitRef, {
+          fileName: file.name,
+          downloadURL: downloadURL,
+          message: message,
+          submittedAt: new Date().toISOString(),
+        });
+        
         const response = await sendSubmissionEmail();
         if (response !== 200) 
           console.error('There was an error sending submission email');
