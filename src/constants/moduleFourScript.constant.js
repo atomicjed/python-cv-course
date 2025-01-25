@@ -135,17 +135,6 @@ export const PythonSetUp = [
       {image: m4Terminal, alt: ''}
     ]
   },
-  {
-    images: [
-      {image: weaviatDash, alt: ''},
-      {image: weaviateDash2, alt: ''}
-    ]
-  },
-  {
-    images: [
-      {image: connect2Weaviate, alt: ''}
-    ]
-  },
 ];
 
 export const vectoriseImages = [
@@ -206,7 +195,28 @@ export const ConnectingToWeaviate = [
     title: 'Connecting to Weaviate'
   },
   {
-    text: 'The first step was to connect to my Weaviate cluster. First we need to store the endpoint and admin API Key as environment variables, as it’s not secure to hard code these sensitive values. To do this, before running the program, in the same terminal run export WEAVIATE_URL=(your_rest_endpoint) export WEAVIATE_API_KEY=(your_admin_api_key). This function will return a client, which we can use to interact with the Weaviate cluster, like creating a new collection:'
+    text: 'First we’ll need to create a Weaviate account and a database to insert our data into. Head to https://weaviate.io and sign up for an account. Once signed in, click create a cluster and then set up a sandbox environment. On this page, make note of the REST Endpoint and the Admin API key, we’ll need these to connect to our cluster.'
+  },
+  {
+    images: [
+      {image: weaviatDash, alt: ''},
+      {image: weaviateDash2, alt: ''}
+    ]
+  },
+  {
+    text: 'The first step was to connect to my Weaviate cluster. First we need to store the endpoint and admin API Key as environment variables, as it’s not secure to hard code these sensitive values. To do this, before running the program, in the same terminal run:'
+  },
+  {list: [
+      {bulletPoint: 'export WEAVIATE_URL=(your_rest_endpoint) export WEAVIATE_API_KEY=(your_admin_api_key)'}
+    ]
+  },
+  {
+    text: 'This function will return a client, which we can use to interact with the Weaviate cluster, like creating a new collection:'
+  },
+  {
+    images: [
+      {image: connect2Weaviate, alt: ''}
+    ]
   },
   {images:[{image: createCollection, alt:''}]},
   {images: [{image: collectionScript, alt: ''}]},
