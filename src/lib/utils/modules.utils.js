@@ -10,5 +10,9 @@ export const availableModules = [
   {
     id: '3',
     moduleName: 'Module 3'
+  },
+  {
+    id: '4',
+    moduleName: 'Module 4'
   }
 ];

@@ -6,6 +6,7 @@ import ModulesProvider, {useModules} from "./lib/context/modules.context.jsx";
 import {useEffect} from "react";
 import Footer from "./components/Footer.jsx";
 import ModuleThree from "./modules/Module3.jsx";
+import ModuleFour from "./modules/ModuleFour.jsx";
 
 
 export default function ModuleRouter() {
@@ -22,6 +23,7 @@ export default function ModuleRouter() {
     "1": <ModuleOne moduleNumber={1} />,
     "2": <ModuleTwo moduleNumber={2} />,
     "3": <ModuleThree moduleNumber={3} />,
+    "4": <ModuleFour moduleNumber={4} />,
   };
 
   return (

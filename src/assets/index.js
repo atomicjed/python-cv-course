@@ -71,7 +71,52 @@ import objectTracking4 from "./ObjectTracking4.png";
 import objectTracking5 from "./ObectTracking5.png";
 import module3Thumb from "./module3Thumb.png";
 
+import imageTensor from "./m4/image-tensor.png";
+import m4Flow from "./m4/flow.png";
+import rockPaperScissors from "./m4/rock_paper_scissors.gif";
+import m4Terminal from "./m4/terminal.png";
+import foldStruct from "./m4/folder-struct.png";
+import weaviatDash from "./m4/weaviate.png";
+import weaviateDash2 from "./m4/weaviate-2.png";
+import connect2Weaviate from "./m4/connect-weaviate.png";
+import createCollection from "./m4/create-collection.png";
+import collectionScript from "./m4/create-collection-script.png";
+import weaviateCollection from "./m4/collection-wweaviate.png";
+import vectoriseFunction from "./m4/processing-images-utils.png";
+import insertUtil from "./m4/insert-utility.png";
+import importInsert from "./m4/import-for-insert.png";
+import imageDataJSON from "./m4/images-data.png";
+import insertImagesToDB from "./m4/insert-to-db.png";
+import importProgram from './m4/import-for-program.png';
+import startVid from './m4/start-video.png';
+import vectoriseFrame from './m4/vectorise frame.png';
+import queryDB from './m4/query vector.png';
+import displayOnVid from './m4/Display text on video.png';
+import closeVid from './m4/close video.png';
+import queryUtil from './m4/similarity-utility.png';
+
 export {
+  vectoriseFunction,
+  queryDB,
+  queryUtil,
+  closeVid,
+  displayOnVid,
+  vectoriseFrame,
+  startVid,
+  importProgram,
+  insertUtil,
+  importInsert,
+  imageDataJSON,
+  insertImagesToDB,
+  weaviateCollection,
+  weaviatDash,
+  weaviateDash2,
+  connect2Weaviate,
+  createCollection,
+  collectionScript,
+  m4Terminal,
+  foldStruct,
+  imageTensor,
   brainwave,
   check,
   check2,
@@ -140,4 +185,6 @@ export {
   objectTracking4,
   objectTracking5,
   module3Thumb,
+  m4Flow,
+  rockPaperScissors,
 };
