@@ -3,6 +3,7 @@ import ModuleRouter from "../ModuleRouter.jsx";
 import ModulesProvider from "../lib/context/modules.context.jsx";
 import HelpMe from "../components/HelpMe.jsx";
 import HelpMePage from "../components/HelpMePage.jsx";
+import {ImageUpload} from "../components/file-upload/file-ulpoad.jsx";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
         <HelpMe />
       </ModulesProvider>
     )
+  },
+  {
+    path: '/image-upload',
+    element: <ImageUpload />
   },
   {
     path: '/help-me',
