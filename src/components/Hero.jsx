@@ -7,7 +7,7 @@ import videojs from "video.js";
 import VideoPlayer from "./VideoPlayer.jsx";
 import {useModules} from "../lib/context/modules.context.jsx";
 
-const Hero = ({ title, subHeading, video, videoThumbnail }) => {
+const Hero = ({ title, subHeading, video=undefined, videoThumbnail=undefined, image='' }) => {
   const playerRef = useRef(null);
   const { isDarkMode } = useModules();
 
@@ -57,7 +57,7 @@ const Hero = ({ title, subHeading, video, videoThumbnail }) => {
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
           <div className="relative z-1 p-1 rounded-2xl bg-conic-gradient flex items-center justify-center flex-col overflow-hidden">
             <div className={'w-[358px] md:w-[1016px] rounded-2xl overflow-hidden'}>
-              <VideoPlayer options={videoJsOptions} onReady={handlePlayerReady} />
+              {video ? <VideoPlayer options={videoJsOptions} onReady={handlePlayerReady} /> : <img src={image} alt={''} />}
             </div>
           </div>
           <div className={`absolute flex justify-center items-center ${isDarkMode ? '-top-[200%]' : '-top-[120%]'} left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] ${isDarkMode ? 'lg:-top-[104%]' : 'lg:-top-[97%]'}`}>
