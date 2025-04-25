@@ -110,7 +110,7 @@ export const GetYourselfFamiliar = [
   {
     quiz: {
       question: 'What is an epoch?',
-      options: [{option: 'A measurement of time during training.', correctAnswer: false}, {option: 'One complete pass through the entire training dataset where the model learns and updates its weights. Multiple epochs are used to improve accuracy.', correctAnswer: true}, {option: 'A single data point in the training set.', correctAnswer: false}, {option: 'A checkpoint for saving the model\'s progress.', correctAnswer: false}],
+      options: [{option: 'A measurement of time during training.', correctAnswer: false}, {option: 'One complete pass through the entire training dataset where the model learns and updates its weights.', correctAnswer: true}, {option: 'A single data point in the training set.', correctAnswer: false}, {option: 'A checkpoint for saving the model\'s progress.', correctAnswer: false}],
       explanation: 'An epoch refers to one full pass of the entire dataset through the model. The model updates its weights after seeing the whole dataset once, and multiple epochs are used to progressively improve the model.'
     }
   },
