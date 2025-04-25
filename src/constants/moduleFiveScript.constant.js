@@ -90,7 +90,7 @@ export const GetYourselfFamiliar = [
     quiz: {
       question: 'What does a neural network do?',
       options: [{option: 'Tracks the progress of machine learning models.', correctAnswer: false}, {option: 'It rewards or punishes the model based on its actions to learn the best strategy over time.', correctAnswer: false}, {option: 'Analyses patterns in a tensor to make a prediction.', correctAnswer: true}, {option: 'It draws a straight line through the data points to make predictions.', correctAnswer: false}],
-      explanation: ''
+      explanation: 'Neural networks are designed to process data (represented as tensors) and learn patterns from it. They analyse the data to make predictions, such as classifying images or recognizing speech.'
     }
   },
   {
