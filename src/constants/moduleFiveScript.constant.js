@@ -75,7 +75,7 @@ export const GetYourselfFamiliar = [
   {
     quiz: {
       question: 'How do we train a machine to identify data?',
-      options: [{option: 'Give it data with answers and program a machine to learn the patterns in the data.', correctAnswer: true}, {option: 'By writing complex code to define every outcome', correctAnswer: false}],
+      options: [{option: 'Provide data with answers and program a machine to learn the patterns in the data.', correctAnswer: true}, {option: 'By writing complex code to define every outcome', correctAnswer: false}],
       explanation: 'This is called supervised learning. In machine learning, we train models by providing them with data that includes both the input (features) and the expected output (labels). The model learns the patterns between the data and the answers so it can make predictions on new, unseen data.'
     }
   },
