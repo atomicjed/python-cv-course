@@ -96,7 +96,7 @@ export const GetYourselfFamiliar = [
   {
     quiz: {
       question: 'What is a loss function?',
-      options: [{option: 'A function that adjusts the weights to a model to improve for next time', correctAnswer: false}, {option: 'Correct: A function that measures the error in a model’s prediction by comparing it with the actual answer.', correctAnswer: true}, {option: 'A function that tracks how much data is processed during training.', correctAnswer: false}, {option: 'A function that saves the model\'s progress after each step.', correctAnswer: false}],
+      options: [{option: 'A function that adjusts the weights to a model to improve for next time', correctAnswer: false}, {option: 'A function that measures the error in a model’s prediction by comparing it with the actual answer.', correctAnswer: true}, {option: 'A function that tracks how much data is processed during training.', correctAnswer: false}, {option: 'A function that saves the model\'s progress after each step.', correctAnswer: false}],
       explanation: 'The loss function quantifies how well well or poorly the model’s prediction are compared to the true answer). During training, this helps the model know how much to adjust its weights to reduce eros.'
     }
   },
