@@ -59,7 +59,7 @@ export default function ModuleFive({ moduleNumber }) {
     <>
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
         <Header navigation={module5NavItems} />
-        <Hero image={"https://firebasestorage.googleapis.com/v0/b/python-cv-course-a91b0.firebasestorage.app/o/ai-assitant.png?alt=media&token=4aa89e97-ae68-4ead-ae9e-9aa8ada7bf88"} title={"Gaming Accessibility Assistant - Week 1"} subHeading={"Training our First Machine Learning Model!"} />
+        <Hero image={"https://firebasestorage.googleapis.com/v0/b/python-cv-course-a91b0.firebasestorage.app/o/ai-assitant.png?alt=media&token=4aa89e97-ae68-4ead-ae9e-9aa8ada7bf88"} title={"Gaming Accessibility Assistant - Weeks 1 & 2"} subHeading={"Training our First Machine Learning Model!"} />
         <InfoSection sectionId={'project-overview'} content={ProjectOverview} isFirst />
         <InfoSection sectionId={'prerequisites'} content={GetYourselfFamiliar} />
         <InfoSection sectionId={'walkthrough'} content={WalkThrough} />
