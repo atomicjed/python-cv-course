@@ -20,7 +20,7 @@ const router = createBrowserRouter([
     )
   },
   {
-    path: '/image-upload',
+    path: '/file-upload',
     element: <ImageUpload />
   },
   {

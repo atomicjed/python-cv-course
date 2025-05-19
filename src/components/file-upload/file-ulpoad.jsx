@@ -44,7 +44,7 @@ export function ImageUpload() {
   return (
     <div
       className={`container relative z-2 flex flex-col px-6 sm:px-12 md:px-24 lg:px-32`}>
-      <h1 className={'my-8 text-[20px]'}>Image Uploads</h1>
+      <h1 className={'my-8 text-[20px]'}>File Uploads</h1>
       <div className={"flex flex-col items-center gap-6"}>
         <CustomDropzone isUploading={isUploading} onChange={(droppedFile) => {
           onFileDropped(droppedFile)
