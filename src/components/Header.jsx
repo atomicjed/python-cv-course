@@ -55,7 +55,7 @@ const Header = ({ navigation }) => {
                       enablePageScroll();
                       handleModuleSelected(module.id);
                     }}
-                    className={`${isDarkMode ? 'text-n-1 hover:text-secondary' : 'text-black hover:text-primary'} block cursor-pointer relative font-code text-2xl uppercase transition-colors px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold lg:leading-5 xl:px-12`}
+                    className={`${isDarkMode ? 'text-n-1 hover:text-secondary' : 'text-black hover:text-primary'} block cursor-pointer relative font-code text-2xl uppercase transition-colors px-6 py-5 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold lg:leading-5 xl:px-12`}
                   >
                     {module.moduleName}
                   </div>

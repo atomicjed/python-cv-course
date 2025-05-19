@@ -8,6 +8,7 @@ import Footer from "./components/Footer.jsx";
 import ModuleThree from "./modules/Module3.jsx";
 import ModuleFour from "./modules/ModuleFour.jsx";
 import ModuleFive from "./modules/ModuleFive.jsx";
+import ModuleSix from "./modules/ModuleSix.jsx";
 
 
 export default function ModuleRouter() {
@@ -26,6 +27,7 @@ export default function ModuleRouter() {
     "3": <ModuleThree moduleNumber={3} />,
     "4": <ModuleFour moduleNumber={4} />,
     "5": <ModuleFive moduleNumber={5} />,
+    "6": <ModuleSix moduleNumber={6} />
   };
 
   return (

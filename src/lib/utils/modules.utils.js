@@ -18,5 +18,9 @@ export const availableModules = [
   {
     id: '5',
     moduleName: 'Module 5'
+  },
+  {
+    id: '6',
+    moduleName: 'Module 6'
   }
 ];
